@@ -5,18 +5,8 @@
 	<h2>This is the home page for the 
 	<%= link_to "Ruby on Rails Tutorial", "http://www.railstutorial.org/" %></h2>
 
-	<%= link_to "Sign up Now!", "#", class: "btn btn-lg btn-primary" %>
+	<%= link_to "Sign up Now!", signup_path, class: "btn btn-lg btn-primary" %>
 
 </div>
 
 <%= link_to image_tag("rails-logo.svg", alt: "Rails Logo", height: "100px"), "http://rubyonrails.org" %>
-
-
-
-<!-- 
-	<h3>
-		<%= link_to "about", "/static_pages/about" %>
-		<%= link_to "help", "/static_pages/help" %>
-	</h3>
-	<p>This is the home page for the <%= link_to "Ruby on Rails Tutorial", "http://www.railstutorial.org/"	%>.
-	</p> -->
